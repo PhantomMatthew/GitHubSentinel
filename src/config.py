@@ -11,3 +11,5 @@ class Config:
             self.notification_settings = config.get('notification_settings')
             self.subscriptions_file = config.get('subscriptions_file')
             self.update_interval = config.get('update_interval', 24 * 60 * 60)  # Default to 24 hours
+            self.deepseek_api_key = config.get('deepseek_api_key')
+            self.deepseek_base_url = config.get('deepseek_base_url')
