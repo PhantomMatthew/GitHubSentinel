@@ -6,7 +6,7 @@
 
 # LangChain 项目进展
 
-## 时间周期：2024-08-13至2024-08-18
+## 时间周期：2024-12-01至2025-12-01
 
 ## 新增功能
 - langchain-box: 添加langchain box包和DocumentLoader
@@ -20,3 +20,7 @@
 - 修复Azure的json模式问题
 - 修复Databricks Vector Search演示笔记本问题
 - 修复Microsoft Azure Cosmos集成测试中的连接字符串问题
+
+## 活跃开发者
+- 列出那些开发者比较活跃
+- 列出最大的提交
