@@ -1,7 +1,6 @@
-# src/logger.py
-
 from loguru import logger
 import sys
+import logging
 
 # 定义统一的日志格式字符串
 log_format = "{time:YYYY-MM-DD HH:mm:ss} | {level} | {module}:{function}:{line} - {message}"
