@@ -23,7 +23,7 @@ class Config:
             llm_config = config.get('llm', {})
             self.llm_model_type = llm_config.get('model_type', 'openai')
             self.openai_model_name = llm_config.get('openai_model_name', 'deepseek-chat')
-            self.deepseek_api_key = llm_config.get('deepseek_api_key', 'sk-1703b096a18642d8b0e49e2420ab6a88')
+            self.deepseek_api_key = llm_config.get('deepseek_api_key')
             self.deepseek_base_url = llm_config.get('deepseek_base_url', 'https://api.deepseek.com/v1/')
 			
             self.ollama_model_name = llm_config.get('ollama_model_name', 'llama3')
