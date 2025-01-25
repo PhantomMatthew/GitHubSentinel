@@ -4,10 +4,11 @@ from openai import OpenAI  # 导入OpenAI库用于访问GPT模型
 from logger import LOG  # 导入日志模块
 from config import Config
 
-config = Config()
 
 class LLM:
     def __init__(self):
+        config = Config()
+
         # 创建一个OpenAI客户端实例
         self.client = OpenAI(api_key=config.deepseek_api_key, base_url=config.deepseek_base_url)
         # 从TXT文件加载提示信息
